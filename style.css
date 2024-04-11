@@ -37,7 +37,7 @@ p {
   justify-content: center;
   background-color: var(--color-secondary);
 
-  border: red solid 3px;
+  /* border: red solid 3px; */
   max-width: 100%;
   margin: 10px;
 }
@@ -59,15 +59,14 @@ p {
   max-width: 100%;
   display: block;
   padding-left: 30px;
+  margin-top: 15px;
 
-  border: red solid 3px;
+  /* border: red solid 3px; */
 }
 
 .content h2,
 span {
   margin: 10px;
-
-  border: red solid 3px;
 }
 
 .content ul,
@@ -77,30 +76,38 @@ ol {
 }
 
 #observacoes {
-  border: red solid 3px;
-  padding-right: 20%;
-  padding-left: 20%;
+  /* border: rgb(43, 255, 0) solid 3px; */
   display: flex;
-  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  height: 70px;
+  justify-content: center;
 }
 
-.observacoes {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
-  margin-top: 2rem;
-  padding-bottom: 5rem;
+.observacao span {
+  font-size: 0.9rem;
+  font-weight: bold;
+
+  /* border: rgb(255, 0, 34) solid 1px; */
 }
 
-/* background-color: var(--color-primary);
-  padding-left: 1rem;
-  padding-right: 1rem; 
-  padding-bottom: 2rem;
-  padding-top: 2rem; */
+.observacao p {
+  font-size: 0.8rem;
+  margin-top: 2px;
+  width: 100%;
+  text-align: center;
+  /* border: rgb(255, 0, 170) solid 1px; */
+}
 
+.observacao {
+  /* border: rgb(4, 0, 255) solid 1px; */
+  align-content: center;
+}
 .divider {
-  width: 10rem;
-  height: 3px;
-  background-color: var(--color-red);
-  margin-top: 1rem;
+  width: 2px;
+  height: 100%;
+  background-color: var(--color-secondary);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
