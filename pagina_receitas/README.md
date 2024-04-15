@@ -6,7 +6,7 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 </p>
 
 <p align="center">
-  <img alt="pagina-recdeita" src="./assets/pagina-web.jpeg">
+  <img alt="pagina-recdeita" src="./pagina_receitas/assets/pagina-web.jpeg">
 </p>
 
 ## 🚀 Tecnologias
